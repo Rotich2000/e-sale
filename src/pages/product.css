@@ -1,0 +1,123 @@
+.description-wrapper h4,
+.reviews-wrapper h4,
+.popular-wrapper .section-heading{
+    font-size: 18px;
+    color: var(--link-color);
+}
+
+.review-head{
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    padding-bottom: 20px;
+}
+
+.review-inner-wrapper{
+    background-color: var(--white);
+    padding: 30px;
+}
+
+.review h3{
+    font-size: 18px;
+    color: var(--link-color);
+}
+
+.review-form{
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+.review:not(:last-child){
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    margin-bottom: 10px;
+}
+
+/* .review-head p,
+.review-head a,
+.description-wrapper p, */
+.main-product-details a{
+    font-size: 14px;
+    color: var(--form-color);
+}
+
+.review-form label{
+    color: var(--form-color);
+}
+
+.review p{
+    font-size: 14px;
+    color: var(--form-color)
+}
+
+.main-product-image{
+     background-color: var(--white);
+     padding: 20px;
+     border-radius: 10px 10px 0 0;
+}
+
+.other-product-images{
+    background-color: var(--white);
+    padding: 10px 20px;
+    border-radius: 0 0 10px 10px;
+}
+
+.other-product-images > div{
+    width: 48.5%;
+    height: 300px;
+}
+
+.other-product-images img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.main-product-image > div,
+.other-product-images > div{
+    border: 1px solid rgba(0,0,0,0.25);
+    padding: 20px;
+}
+
+.main-product-image img{
+    width: 100%;
+    object-fit: contain;
+}
+
+.main-product-image .js-image-zoom__zoomed-image{
+    left: 160px !important;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    z-index: 1000;
+}
+
+.main-product-details{
+    padding: 30px 20px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.main-product-details h3{
+    font-size: 18px;
+    color: var(--link-color);
+    font-weight: 600;
+}
+
+.main-product-details p.price{
+    font-size: 16px;
+    color: var(--link-color);
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.main-product-details a.review-btn,
+.main-product-details .t-review{
+    color: var(--form-color);
+    font-size: 14px;
+}
+
+h3.product-heading{
+    font-size: 14px;
+    color: var(--link-color);
+}
+
+.product-data{
+    font-size: 13px;
+    color: var(--form-color);
+}

@@ -1,39 +1,145 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&family=Kumbh+Sans:wght@400;500;600;700;800&display=swap');
+
+:root{
+ --gray-color: #131921;
+ --border-color: #3b4149;
+ --button-color: #febd69;
+ --thirdheader-color: #232f3e;
+ --orange-color: #bf4800;
+ --semi-gray: #f5f5f7;
+ --form-color: #777777;
+ --white: #fff;
+ --link-color: #1c1c1b;
+ --base-border: #eaeaea;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-float infinite 3s ease-in-out;
-  }
+body{
+  font-family: 'Kumbh Sans', sans-serif;
 }
 
-.App-header {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+a{
+  text-decoration: none;
+  display: inline-block;
 }
 
-.App-link {
-  color: rgb(112, 76, 182);
+.gap-10{
+  gap: 10px;
 }
 
-@keyframes App-logo-float {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(10px);
-  }
-  100% {
-    transform: translateY(0px);
-  }
+.gap-15{
+  gap: 15px;
 }
+
+.gap-20{
+  gap: 20px;
+}
+
+.gap-30{
+  gap:30px;
+}
+
+.border-bottom{
+  border-bottom: 1px solid rgba(0,0,0,0.25);
+}
+
+.button{
+  background-color: var(--thirdheader-color);
+  color: white;
+  font-size: 14px;
+  padding: 13px 33px;
+  border-radius: 15px;
+  transition: all 0.5s ease;
+}
+
+.button:hover{
+  background-color: var(--button-color);
+  color: #131921;
+}
+/* Header part */
+
+.header-top-strip{
+  background-color: var(--gray-color);
+  border-bottom: 1px solid var(--border-color);
+}
+
+.header-upper{
+  background-color: var(--gray-color);
+}
+
+.header-upper .input-group-text{
+  background-color: var(--button-color);
+  cursor: pointer;
+}
+
+.form-control:focus{
+  box-shadow: none;
+  border-color: inherit;
+}
+
+/* .header-upper .header-upper-links img{
+  width: 35px;
+  height: 35px;
+} */
+
+.header-bottom{
+  background-color: var(--thirdheader-color);
+}
+
+.header-bottom .menu-links a{
+  color: white;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: .3px;
+  line-height: 18px;
+}
+
+.header-bottom .dropdown button:focus{
+  box-shadow: none;
+}
+
+/* .header-bottom .dropdown button::before{
+  content: url('../public/images/menu.svg');
+} */
+.header-bottom .dropdown-menu{
+  background-color: var(--gray-color);
+  width: 100%;
+  transform: translate3d(0px, 57px, 0) !important;
+}
+
+.header-bottom .dropdown-item{
+  margin-bottom: 3px;
+  padding: 20px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.header-bottom .dropdown-item:hover{
+  background-color: transparent;
+  color: var(--button-color) !important;
+}
+/* Header part ends here! */
+
+/* Footer part */
+footer{
+  background-color: var(--thirdheader-color);
+}
+
+footer:not(:first-child){
+  border-top: 1px solid var(--border-color);
+}
+
+footer .input-group-text{
+  background-color: var(--thirdheader-color);
+  color: white;
+  padding: 8px 17px;
+  line-height: 20px;
+  text-transform: uppercase;
+  letter-spacing: .3px;
+}
+
+/* Footer part ends here */

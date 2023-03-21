@@ -1,0 +1,43 @@
+.login-card{
+    padding: 20px;
+    background-color: var(--white);
+    width: 500px;
+    margin: 100px auto;
+    border-radius: 10px;
+}
+
+.login-card h3{
+    font-size: 19px;
+    font-weight: 500;
+    color: var(--form-color);
+}
+
+.login-card .form-control{
+    height: 50px;
+    background-color: var(--semi-gray);
+    border-radius: 10px;
+    color: var(--form-color);
+    font-size: 14px;
+    outline: none;
+}
+
+.login-card a{
+    color: var(--link-color);
+    font-size: 14px;
+}
+
+.login-card p{
+    font-size: 13px;
+    color: var(--form-color);
+}
+
+.signup{
+    background-color: var(--button-color);
+    color: var(--gray-color);
+    border: none;
+}
+
+.signup:hover{
+    background-color: var(--thirdheader-color);
+    color: var(--white);
+}

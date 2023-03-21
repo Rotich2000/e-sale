@@ -1,0 +1,113 @@
+.filter-card{
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 15px 15px 25px;
+}
+
+.filter-title{
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+    color: #1c1b1b;
+    margin-bottom: 20px;
+}
+
+.filter-card ul{
+    list-style: none;
+}
+
+.filter-card ul li, .filter-card .form-check-label{
+    text-transform: capitalize;
+    line-height: 28px;
+    font-size: 13px;
+    color: #777777;
+    cursor: pointer;
+}
+
+.filter-card .form-check-input:focus{
+    border-color: rgba(0,0,0,0.25);
+    box-shadow: none;
+}
+
+.filter-card .form-check-input:checked{
+    background-color: #febd69;
+    border-color: #febd69;
+}
+
+.sub-title{
+    font-size: 14px;
+    font-weight: 600;
+    color: #1c1b1b;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+.random-products h5{
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.random-products:first-child{
+    border-bottom: 1px solid #ebebeb;
+}
+
+.product-card .description{
+    color: #777777;
+    font-size: 13px;
+    margin-right: 20px;
+}
+
+.filter-sort-grid{
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.grid img{
+    width: 34px;
+    height: 34px;
+    background-color: #f2f2f2;
+    padding: 8px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.gr-12{
+    width: 100%;
+}
+
+.gr-6{
+    width: 49.4%;
+}
+
+.gr-4{
+    width: 32.5%;
+}
+
+.gr-6 .product-image{
+    width: 100%;
+}
+
+.gr-6 .product-image img{
+    margin: auto;
+    display: block;
+}
+
+.gr-3{
+    width: 24%;
+}
+
+.gr-12 .product-card{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.gr-12 .product-card .product-image{
+    width: 270px;
+    height: auto;
+}
+
+.gr-12 .action-bar{
+    top: 19%;
+}

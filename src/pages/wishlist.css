@@ -1,0 +1,33 @@
+.wishlist-card{
+    background-color: #fff;
+    padding: 20px 15px;
+    border-radius:10px;
+}
+.wishlist-card .cross{
+   width: 25px;
+   height: 25px;
+   right: 15px;
+   top: 15px;    
+   padding: 3px;
+   cursor: pointer;
+}
+
+.wishlist-card img{
+    width: 215px;
+    height: 219px;
+    object-fit: contain;
+}
+
+.wishlist-card .title{
+    color: #1c1b1b;
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: 500;
+}
+
+.wishlist-card .price{
+    color: #1c1b1b;
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: 600;
+}

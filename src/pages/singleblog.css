@@ -1,0 +1,22 @@
+.single-blog-card .title{
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--link-color);
+}
+
+.single-blog-card p{
+    color: var(--form-color);
+    font-size: 13px;
+}
+
+.single-blog-card img{
+    border-radius: 10px;
+    /* max-height: 700px;
+    object-fit: cover;
+    object-position: center top; */
+}
+
+.single-blog-card a{
+    color: var(--form-color);
+    font-size: 18px;
+}
